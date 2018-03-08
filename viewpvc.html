@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>STONE, PAPER & SCISSORS</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <title></title>
+  </head>
+  <body>
+    <a href="index.html">Menú principal</a>
+    <div id="viewpvc">
+      <h1>PLAYER YOU'RE A DOG!!!</h1>
+      <h2>
+        <div class="dogpvp1">
+          <img id="ninjadog" src="assets/img/ninjadog.jpg" alt="perro ninja">
+        </div>
+        <div class="dogpvp2">
+          <p>Select</p>
+          <form id="indog">
+            <label for="dogpiedra"><img id="dogpvp1" src="assets/img/dogpiedra.jpg" alt="dogpiedra"></label>
+            <input id="dogpiedra" type="radio" name="dog" value="piedra" onclick="pvc(this.form)">
+            <label for="dogpapel"><img id="dogpvp1" src="assets/img/dogpapel.jpg" alt="dogpapel"></label>
+            <input id="dogpapel" type="radio" name="dog" value="papel" onclick="pvc(this.form)">
+            <label for="dogtijeras"><img id="dogpvp1" src="assets/img/dogtijeras.jpg" alt="dog tijeras"></label>
+            <input id="dogtijeras" type="radio" name="dog" value="tijeras" onclick="pvc(this.form)">
+          </form>
+        </div>
+      </h2>
+    </div>
+    <div class="resultpvc" id="view3">
+      <h1>CPU WINS!!!</h1>
+      <audio id="gatogana" src="assets/audio/gatogana.wav"></audio>
+      <h2 class="resultpvc">
+        <p class="result1pvc" id="result1pvc">""</p>
+        <img class="resultimg" src="assets/img/p1win1.jpg" alt="p1win1">
+        <p class="result2pvc" id="result2pvc">""</p>
+      </h2>
+    </div>
+    <div class="resultpvc" id="view4">
+      <h1>CPU WINS!!!</h1>
+      <audio id="gatogana" src="assets/audio/gatogana.wav"></audio>
+      <h2 class="resultpvc">
+        <p class="result1pvc" id="result1pvc">""</p>
+        <img class="resultimg" src="assets/img/p1win2.jpg" alt="p1win2">
+        <p class="result2pvc" id="result2pvc">""</p>
+      </h2>
+    </div>
+    <div class="resultpvc" id="view5">
+      <h1>PLAYER WINS!!!</h1>
+      <audio id="perrogana" src="assets/audio/perrogana.wav"></audio>
+      <h2 class="resultpvc">
+        <p class="result1pvc" id="result1pvc">""</p>
+        <img class="resultimg" src="assets/img/p2win1.jpg" alt="p2win1">
+        <p class="result2pvc" id="result2pvc">""</p>
+      </h2>
+    </div>
+    <div class="resultpvc" id="view6">
+      <h1>PLAYER WINS!!!</h1>
+      <audio id="perrogana" src="assets/audio/perrogana.wav"></audio>
+      <h2 class="resultpvc">
+        <p class="result1pvc" id="result1pvc">""</p>
+        <img class="resultimg" src="assets/img/p2win2.jpg" alt="p2win2">
+        <p class="result2pvc" id="result2pvc">""</p>
+      </h2>
+    </div>
+    <div class="resultpvc" id="view7">
+      <h1>DRAW!!!</h1>
+      <audio id="audioempate" src="assets/audio/empate.wav"></audio>
+      <h2 class="resultpvc">
+        <p class="result1pvc" id="result1pvc">""</p>
+        <img class="resultimg" src="assets/img/empate2.jpg" alt="empate2">
+        <p class="result2pvc" id="result2pvc">""</p>
+      </h2>
+    </div>
+
+
+
+    <script src="assets/javascript/scripts.js"></script>
+  </body>
+</html>
