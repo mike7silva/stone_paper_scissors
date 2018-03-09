@@ -1,4 +1,4 @@
-html {
+body {
   background-image: url("../img/ring.jpg");
   background-size: cover;
 }
@@ -172,4 +172,28 @@ p.result2pvc {
   float: right;
   width: 350px;
   height: 350px;
+}
+input {
+  display: none;
+}
+label {
+  margin-right: 15px;
+}
+img.select:hover {
+  box-sizing: border-box;
+  border-color: blue;
+  border: #C31105 solid 7px;
+  box-shadow: 3px 3px 3 px #C1C1C1;
+}
+button {
+  color: white;
+  border-radius: 3px;
+  font-size: 13px;
+  height: 40px;
+  width: 150px;
+  background: radial-gradient(circle, #D1E5E1, #BA7);
+  font-weight: bold;
+}
+#inicio {
+  text-decoration: none;
 }

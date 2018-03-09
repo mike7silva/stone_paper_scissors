@@ -23,11 +23,11 @@ function pvp4() {
   switch (true) {
     case user1==user2:
 
-      aude.play();
       console.log("empate");
       document.getElementById('view7').style.display = "block";
       document.getElementsByClassName('result1')[4].innerHTML = "Gato escogió "+user1;
       document.getElementsByClassName('result2')[4].innerHTML = "Perro escogió "+user2;
+      aude.play();
       break;
     case user1=='piedra'&&user2=='papel':
       console.log("gana_user2");
@@ -89,8 +89,8 @@ function pvc2() {
 
   var selectitem = ["piedra", "papel", "tijeras"];
   var pickitem = function () {
-  var item = selectitem[Math.floor(Math.random() * 3)];
-  return item;
+    var item = selectitem[Math.floor(Math.random() * 3)];
+    return item;
   };
 
   var cpu = pickitem ()

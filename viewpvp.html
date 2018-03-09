@@ -7,7 +7,9 @@
     <title></title>
   </head>
   <body>
-    <a href="index.html"><color:"#FFFFFF">Menú principal</a>
+    <button>
+      <a id="inicio" style="text-decoration:none;" href="index.html"><font color="#4">Menú principal</a>
+    </button>
     <div id="view1">
       <h1>PLAYER 1 YOU'RE A CAT!!!</h1>
       <h2>
@@ -17,11 +19,11 @@
         <div class="catpvp2">
           <p>Select</p>
           <form id="incat">
-            <label for="catpiedra"><img id="catpvp1" src="assets/img/catpiedra.jpg" alt="catpiedra"></label>
+            <label for="catpiedra"><img class="select" id="catpvp1" src="assets/img/catpiedra.jpg" alt="catpiedra"></label>
             <input id="catpiedra" type="radio" name="cat" value="piedra" onclick="pvp2(this.form)">
-            <label for="catpapel"><img id="catpvp1" src="assets/img/catpapel.jpg" alt="catpapel"></label>
+            <label for="catpapel"><img class="select" id="catpvp1" src="assets/img/catpapel.jpg" alt="catpapel"></label>
             <input id="catpapel" type="radio" name="cat" value="papel" onclick="pvp2(this.form)">
-            <label for="cattijeras"><img id="catpvp1" src="assets/img/cattijeras.jpg" alt="cattijeras"></label>
+            <label for="cattijeras"><img class="select" id="catpvp1" src="assets/img/cattijeras.jpg" alt="cattijeras"></label>
             <input id="cattijeras" type="radio" name="cat" value="tijeras" onclick="pvp2(this.form)">
           </form>
         </div>
@@ -36,11 +38,11 @@
         <div class="dogpvp2">
           <p>Select</p>
           <form id="indog">
-            <label for="dogpiedra"><img id="dogpvp1" src="assets/img/dogpiedra.jpg" alt="dogpiedra"></label>
+            <label for="dogpiedra"><img class="select" id="dogpvp1" src="assets/img/dogpiedra.jpg" alt="dogpiedra"></label>
             <input id="dogpiedra" type="radio" name="dog" value="piedra" onclick="pvp3(this.form)">
-            <label for="dogpapel"><img id="dogpvp1" src="assets/img/dogpapel.jpg" alt="dogpapel"></label>
+            <label for="dogpapel"><img class="select" id="dogpvp1" src="assets/img/dogpapel.jpg" alt="dogpapel"></label>
             <input id="dogpapel" type="radio" name="dog" value="papel" onclick="pvp3(this.form)">
-            <label for="dogtijeras"><img id="dogpvp1" src="assets/img/dogtijeras.jpg" alt="dog tijeras"></label>
+            <label for="dogtijeras"><img class="select" id="dogpvp1" src="assets/img/dogtijeras.jpg" alt="dog tijeras"></label>
             <input id="dogtijeras" type="radio" name="dog" value="tijeras" onclick="pvp3(this.form)">
           </form>
         </div>

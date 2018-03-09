@@ -7,7 +7,9 @@
     <title></title>
   </head>
   <body>
-    <a href="index.html">Menú principal</a>
+    <button>
+      <a id="inicio" style="text-decoration:none;" href="index.html"><font color="#17202A">Menú principal</a>
+    </button>
     <div id="viewpvc">
       <h1>PLAYER YOU'RE A DOG!!!</h1>
       <h2>
@@ -17,11 +19,11 @@
         <div class="dogpvp2">
           <p>Select</p>
           <form id="indog">
-            <label for="dogpiedra"><img id="dogpvp1" src="assets/img/dogpiedra.jpg" alt="dogpiedra"></label>
+            <label for="dogpiedra"><img class="select" id="dogpvp1" src="assets/img/dogpiedra.jpg" alt="dogpiedra"></label>
             <input id="dogpiedra" type="radio" name="dog" value="piedra" onclick="pvc(this.form)">
-            <label for="dogpapel"><img id="dogpvp1" src="assets/img/dogpapel.jpg" alt="dogpapel"></label>
+            <label for="dogpapel"><img class="select" id="dogpvp1" src="assets/img/dogpapel.jpg" alt="dogpapel"></label>
             <input id="dogpapel" type="radio" name="dog" value="papel" onclick="pvc(this.form)">
-            <label for="dogtijeras"><img id="dogpvp1" src="assets/img/dogtijeras.jpg" alt="dog tijeras"></label>
+            <label for="dogtijeras"><img class="select" id="dogpvp1" src="assets/img/dogtijeras.jpg" alt="dog tijeras"></label>
             <input id="dogtijeras" type="radio" name="dog" value="tijeras" onclick="pvc(this.form)">
           </form>
         </div>
